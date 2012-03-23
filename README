@@ -1,0 +1,9 @@
+this library contains a relatively fast LR(1) parser that I wrote for a project
+in one of CS masters classes. I use it quite a lot and I hope that those who
+use it will find it relatively easy to use as well.
+
+Use the Starlight library to interact with this library as there is only the
+parser and few other items in here. 
+
+I have some legacy items in here that are relics of my research efforts to make
+this code far faster. 
