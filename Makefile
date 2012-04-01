@@ -1,5 +1,5 @@
 .RECIPEPREFIX = >
-name := Libraries.Parsing.dll 
+name := Libraries.Parser.dll 
 thisdir := .
 cmd_library := -t:library
 cmd_out := -out:$(name)
@@ -13,7 +13,6 @@ lib_dir := -lib:../LexicalAnalysis/ \
 options := -r:Libraries.Collections.dll \
            -r:Libraries.LexicalAnalysis.dll \
 			  -r:Libraries.Extensions.dll \
-			  -r:Libraries.Collections.dll \
 			  -r:Libraries.Starlight.dll \
 			  -r:Libraries.Tycho.dll
 result := $(name)
